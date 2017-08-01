@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "zuteilen/neoshelper",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZuTeilen\\NeosHelper\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "ZuTeilen.NeosHelper"
+        }
+    }
+}
